@@ -17,3 +17,6 @@ greet3.greet();
 greet3.greeting = "Changed again!";
 var greet4 = new grtr();
 greet4.greet();
+// Revealing module pattern
+var greet5 = require('./greet_reveal').greet;
+greet5();
